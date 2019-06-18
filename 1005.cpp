@@ -31,9 +31,9 @@ public:
             k -= cnt;
             for(int i : a)
                 ans += abs(i);
-            if(k & 1)
+            if(k & 1)// 奇数
                 return ans - find_minabs(a, cnt);
-            else
+            else //偶数
                 return ans;
         }
         return ans;
