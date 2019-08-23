@@ -1,6 +1,5 @@
 class Solution {
 public:
-
     bool dfs(int i, const vector<int>& bits)
     {
         if(i == -1)return 1;
