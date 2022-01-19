@@ -67,7 +67,7 @@ public:
         // quickSort(nums, 0, n - 1);
         vector<int> tmp(n);
         // mergeSort(nums, tmp, 0, n - 1);
-		heapSort(nums, 0, n - 1);
+        heapSort(nums, 0, n - 1);
         return nums;
     }
 };
